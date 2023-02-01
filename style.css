@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.Main_Image{border-radius: 50%; max-width: 60%;
+  height: auto; display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
+
+body {
+  color: rgb(2,0,36);
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background-color: rgb(96, 136, 145);
+  line-height: 1.6;
+  font-weight: 00;
+
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+.card{border-top: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-radius: 20px; width: 400px; padding: 30; margin: 30 auto;
+  box-shadow: 50px 10px 30px rgba(0,0,0,.2); text-align: center;}
+
+
+
+#link { color: rgb(23, 100, 255);
+  text-decoration: none;
+font-size: 20px;
+font-family:'Anton', sans-serif;
+  background-color: #6bb0c3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; border-radius:4px ;
+}
+
+#link:hover{ color: rgb(168, 16, 210);}
+
+.card2 > ul {
+ text-align: center; list-style-type: none;
+}
+
+.card2 li {display: inline-block;}
+
+.card2 li a{text-decoration: none; font-size: 50px; padding: 30; margin: 30;}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
