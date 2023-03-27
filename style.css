@@ -10,7 +10,7 @@ body {
   color: rgb(2,0,36);
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  background-color: rgb(96, 136, 145);
+  background: linear-gradient(222deg, rgb(12 205 255) 0%, rgb(0 184 254) 4%, rgb(240 168 168) 77%, rgb(160 105 105) 100%);
   line-height: 1.6;
   font-weight: 00;
 
@@ -27,7 +27,8 @@ body {
   border-bottom: 1px solid rgb(0, 0, 0);
   border-left: 1px solid rgb(0, 0, 0);
   border-radius: 20px; width: 400px; padding: 30; margin: 30 auto;
-  box-shadow: 50px 10px 30px rgba(0,0,0,.2); text-align: center;}
+  box-shadow: 50px 10px 30px rgba(0,0,0,.2); text-align: center;
+}
 
 
 
